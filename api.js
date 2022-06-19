@@ -9,7 +9,6 @@ const port = process.env.port;
 
 app.listen(port, () => { console.log(`Example app listening at http://localhost:${port}`)})
 
-
 client.connect();
 
 app.get('/peserta', (req, res)=>{
