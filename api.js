@@ -1,10 +1,14 @@
-const client = require('./connection.js')
+
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3300;
+const dotenv = require('dotenv');
+const client = require('./connection.js')
+dotenv.config();
+const port = process.env.port;
 
 
 app.listen(port, () => { console.log(`Example app listening at http://localhost:${port}`)})
+
 
 client.connect();
 
