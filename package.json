@@ -2,9 +2,9 @@
   "name": "belajarcrud",
   "version": "1.0.0",
   "description": "RESTful API with Node.js, Express, and PostgreSQL",
-  "main": "app.js",
+  "main": "api.js",
   "scripts": {
-    "serve": "nodemon app.js",
+    "serve": "nodemon api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
